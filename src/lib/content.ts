@@ -3,35 +3,83 @@ import path from "path";
 import { defaultContent } from "./seed";
 import type { SiteContent, ContentCollection } from "./types";
 
-const DATA_DIR = path.join(process.cwd(), "data");
-const CONTENT_FILE = path.join(DATA_DIR, "content.json");
+const isVercel = process.env.VERCEL === "1";
+
+const BUNDLED_CONTENT_FILE = path.join(process.cwd(), "data", "content.json");
+const WRITABLE_DIR = isVercel
+  ? path.join("/tmp", "iac-data")
+  : path.join(process.cwd(), "data");
+const WRITABLE_CONTENT_FILE = path.join(WRITABLE_DIR, "content.json");
 
 let cache: SiteContent | null = null;
 
-async function ensureDataFile(): Promise<void> {
-  await fs.mkdir(DATA_DIR, { recursive: true });
+async function readJsonFile(filePath: string): Promise<SiteContent | null> {
   try {
-    await fs.access(CONTENT_FILE);
+    const raw = await fs.readFile(filePath, "utf-8");
+    return JSON.parse(raw) as SiteContent;
   } catch {
+    return null;
+  }
+}
+
+async function ensureWritableContent(): Promise<void> {
+  try {
+    await fs.mkdir(WRITABLE_DIR, { recursive: true });
+  } catch {
+    return;
+  }
+
+  const existing = await readJsonFile(WRITABLE_CONTENT_FILE);
+  if (existing) return;
+
+  const bundled = await readJsonFile(BUNDLED_CONTENT_FILE);
+  const initial = bundled ?? structuredClone(defaultContent);
+
+  try {
     await fs.writeFile(
-      CONTENT_FILE,
-      JSON.stringify(defaultContent, null, 2),
+      WRITABLE_CONTENT_FILE,
+      JSON.stringify(initial, null, 2),
       "utf-8"
     );
+  } catch {
+    // Read-only filesystem (e.g. some serverless environments)
   }
 }
 
 export async function getContent(): Promise<SiteContent> {
   if (cache) return cache;
-  await ensureDataFile();
-  const raw = await fs.readFile(CONTENT_FILE, "utf-8");
-  cache = JSON.parse(raw) as SiteContent;
+
+  await ensureWritableContent();
+
+  const fromWritable = await readJsonFile(WRITABLE_CONTENT_FILE);
+  if (fromWritable) {
+    cache = fromWritable;
+    return cache;
+  }
+
+  const fromBundled = await readJsonFile(BUNDLED_CONTENT_FILE);
+  if (fromBundled) {
+    cache = fromBundled;
+    return cache;
+  }
+
+  cache = structuredClone(defaultContent);
   return cache;
 }
 
 export async function saveContent(content: SiteContent): Promise<void> {
-  await ensureDataFile();
-  await fs.writeFile(CONTENT_FILE, JSON.stringify(content, null, 2), "utf-8");
+  await ensureWritableContent();
+
+  try {
+    await fs.writeFile(
+      WRITABLE_CONTENT_FILE,
+      JSON.stringify(content, null, 2),
+      "utf-8"
+    );
+  } catch (error) {
+    if (!isVercel) throw error;
+  }
+
   cache = content;
 }
 

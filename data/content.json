@@ -1,0 +1,438 @@
+{
+  "siteConfig": {
+    "name": "IAC",
+    "fullName": "Innovation & Incubation Center",
+    "tagline": "Empowering Ethiopia's Next Generation of Innovators",
+    "description": "The Innovation & Incubation Center (IAC), under the Ministry of Innovation and Technology (MinT), nurtures startups from idea to impact through mentorship, resources, and a thriving innovation ecosystem.",
+    "url": "https://iac.mint.gov.et",
+    "owner": {
+      "name": "Ministry of Innovation and Technology",
+      "shortName": "MinT",
+      "description": "The Ministry of Innovation and Technology drives Ethiopia's digital transformation and innovation agenda."
+    },
+    "contact": {
+      "email": "info@iac.mint.gov.et",
+      "phone": "+251 11 000 0000",
+      "address": "Addis Ababa, Ethiopia",
+      "hours": "Monday – Friday, 8:30 AM – 5:30 PM"
+    },
+    "social": {
+      "twitter": "https://twitter.com/MoITEthiopia",
+      "linkedin": "https://linkedin.com/company/mint-ethiopia",
+      "youtube": "https://youtube.com"
+    }
+  },
+  "stats": [
+    {
+      "id": "b537fcab-a1b4-4c65-b323-9069382b1974",
+      "value": "120+",
+      "label": "Startups Supported"
+    },
+    {
+      "id": "a06c3600-8ef1-48a4-99a2-986161ef16a9",
+      "value": "45",
+      "label": "Active Cohorts"
+    },
+    {
+      "id": "2e4067a2-5885-4e37-acfa-a4e9e55061e2",
+      "value": "ETB 2.5B+",
+      "label": "Funding Facilitated"
+    },
+    {
+      "id": "cbc83333-a388-4a66-8e5c-f38c33534612",
+      "value": "850+",
+      "label": "Jobs Created"
+    }
+  ],
+  "capabilities": [
+    {
+      "id": "2e7e7df4-af29-4267-9dcd-ffe35a973d17",
+      "icon": "lightbulb",
+      "title": "Idea Validation",
+      "description": "Transform raw concepts into validated business models with structured frameworks and expert feedback."
+    },
+    {
+      "id": "c7943dd5-3abc-4900-ba05-e9855e9b7756",
+      "icon": "users",
+      "title": "Mentorship Network",
+      "description": "Connect with seasoned entrepreneurs, industry leaders, and technical advisors across sectors."
+    },
+    {
+      "id": "c90c5ce9-d990-4c27-a310-f0d227a18c78",
+      "icon": "building",
+      "title": "Co-Working Spaces",
+      "description": "Modern, fully-equipped workspaces designed for collaboration, focus, and creative breakthroughs."
+    },
+    {
+      "id": "63b3ebc4-837a-410f-9de2-a29ec11346c5",
+      "icon": "wallet",
+      "title": "Funding Access",
+      "description": "Bridge to grants, angel investors, and venture capital through MinT-backed innovation funds."
+    },
+    {
+      "id": "ea36664b-0c25-4de7-8d00-8114c0326ce7",
+      "icon": "globe",
+      "title": "Market Linkage",
+      "description": "Access domestic and international markets through trade missions, expos, and partner networks."
+    },
+    {
+      "id": "a1f274a9-eac0-4cc3-9bbd-8f2f4db76880",
+      "icon": "cpu",
+      "title": "Tech Infrastructure",
+      "description": "Cloud credits, prototyping labs, and digital tools to accelerate product development."
+    }
+  ],
+  "programs": [
+    {
+      "id": "pre-incubation",
+      "title": "Pre-Incubation",
+      "duration": "3 Months",
+      "description": "For early-stage founders with an idea. Focus on problem validation, customer discovery, and MVP planning.",
+      "features": [
+        "Business model canvas workshops",
+        "Customer interview training",
+        "Pitch deck fundamentals",
+        "Access to innovation labs"
+      ],
+      "badge": "Entry Level"
+    },
+    {
+      "id": "incubation",
+      "title": "Incubation Program",
+      "duration": "6–12 Months",
+      "description": "Our flagship program for startups ready to build, launch, and scale their products in the Ethiopian market.",
+      "features": [
+        "Dedicated mentor pairing",
+        "Co-working desk allocation",
+        "Legal & IP support",
+        "Investor readiness training"
+      ],
+      "badge": "Most Popular",
+      "featured": true
+    },
+    {
+      "id": "acceleration",
+      "title": "Acceleration",
+      "duration": "4 Months",
+      "description": "Intensive growth program for startups with traction, preparing them for Series A and regional expansion.",
+      "features": [
+        "Growth hacking sprints",
+        "International market access",
+        "Corporate partnership matching",
+        "Demo day with investors"
+      ],
+      "badge": "Growth Stage"
+    },
+    {
+      "id": "sector-labs",
+      "title": "Sector Innovation Labs",
+      "duration": "Ongoing",
+      "description": "Specialized tracks in AgriTech, FinTech, HealthTech, EdTech, and Green Energy with domain experts.",
+      "features": [
+        "Sector-specific mentorship",
+        "Regulatory sandbox access",
+        "Pilot program facilitation",
+        "Government procurement pathways"
+      ],
+      "badge": "Specialized"
+    },
+    {
+      "id": "Pre-Incubation",
+      "title": "Future-Startup Founders Program",
+      "duration": "seasonal",
+      "badge": "112212",
+      "description": "12212",
+      "features": [
+        "asdsd",
+        "sdasd",
+        "asdasd",
+        "sad",
+        "sd",
+        "as"
+      ],
+      "featured": true
+    }
+  ],
+  "services": [
+    {
+      "id": "38a4228b-54e6-43b9-b76e-0400dfcfea86",
+      "title": "Business Development",
+      "description": "Strategic planning, market research, and go-to-market strategy tailored for the Ethiopian context.",
+      "icon": "trending-up"
+    },
+    {
+      "id": "1d469d3d-4958-4cf2-aed9-7f273b2b9675",
+      "title": "Legal & Compliance",
+      "description": "Company registration guidance, IP protection, and regulatory navigation for tech startups.",
+      "icon": "scale"
+    },
+    {
+      "id": "1493ce2b-3b20-4935-98e4-3e536bab052e",
+      "title": "Financial Advisory",
+      "description": "Financial modeling, bookkeeping support, and preparation for investor due diligence.",
+      "icon": "calculator"
+    },
+    {
+      "id": "30d8df62-840b-4c77-8bde-29f471c635ff",
+      "title": "Technical Support",
+      "description": "Software architecture reviews, UX audits, and access to development resources and APIs.",
+      "icon": "code"
+    },
+    {
+      "id": "13bc29c8-0d9f-4944-83e2-c63892f52625",
+      "title": "HR & Talent",
+      "description": "Recruitment support, internship pipelines from universities, and team-building workshops.",
+      "icon": "user-plus"
+    },
+    {
+      "id": "fab50d5e-c138-4e2a-9e3c-3620d526dd57",
+      "title": "Marketing & Branding",
+      "description": "Brand identity development, digital marketing strategy, and media relations support.",
+      "icon": "megaphone"
+    }
+  ],
+  "startups": [
+    {
+      "id": "18890e60-bc1f-4b97-9dee-e7d44d648125",
+      "name": "AgriSense",
+      "sector": "AgriTech",
+      "description": "IoT-powered soil monitoring and crop advisory platform serving 15,000+ smallholder farmers.",
+      "stage": "Growth",
+      "year": "2023"
+    },
+    {
+      "id": "01dbb44a-bea0-4052-ae42-407c1e622955",
+      "name": "PayFlow ET",
+      "sector": "FinTech",
+      "description": "Mobile payment and micro-lending platform bridging the financial inclusion gap in rural Ethiopia.",
+      "stage": "Scale",
+      "year": "2022"
+    },
+    {
+      "id": "1d67a2e6-f480-4cc3-a635-86a3c455935a",
+      "name": "MedLink",
+      "sector": "HealthTech",
+      "description": "Telemedicine platform connecting patients in underserved areas with specialist physicians.",
+      "stage": "Growth",
+      "year": "2023"
+    },
+    {
+      "id": "4ad3a71a-7327-40db-9fd7-63d4bfd535f8",
+      "name": "EduSpark",
+      "sector": "EdTech",
+      "description": "Adaptive learning platform delivering personalized education in Amharic and regional languages.",
+      "stage": "Early",
+      "year": "2024"
+    },
+    {
+      "id": "48f117fa-d59f-4290-9aa9-e59c40164524",
+      "name": "GreenGrid",
+      "sector": "Clean Energy",
+      "description": "Solar micro-grid solutions powering off-grid communities with smart energy management.",
+      "stage": "Growth",
+      "year": "2022"
+    },
+    {
+      "id": "d8bbe0c7-add9-43d3-957f-f405702c522c",
+      "name": "LogiChain",
+      "sector": "Logistics",
+      "description": "Blockchain-based supply chain transparency platform for Ethiopian coffee exporters.",
+      "stage": "Early",
+      "year": "2024"
+    },
+    {
+      "id": "f4b8b07a-f656-4ea8-9c8f-ad4f8ac686a0",
+      "name": "Made In Ethiopia | MIE",
+      "sector": "Procurement & Ecommerce",
+      "stage": "Production",
+      "year": "2026",
+      "description": "Made In Ethiopia | MIE Description",
+      "website": "mie.et"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "39086dd7-a447-42a8-aaa8-63b6adeb8e4d",
+      "quote": "IAC didn't just give us office space — they gave us a roadmap. The mentorship program transformed how we think about scaling in Africa.",
+      "author": "Selam T.",
+      "role": "CEO, AgriSense",
+      "initials": "ST"
+    },
+    {
+      "id": "051b15e7-7607-4574-bf75-5ffbfdd54f32",
+      "quote": "As a first-time founder, the legal and financial workshops saved us months of costly mistakes. The MinT ecosystem is truly supportive.",
+      "author": "Daniel M.",
+      "role": "Founder, PayFlow ET",
+      "initials": "DM"
+    },
+    {
+      "id": "a8b93c64-b743-4a26-bc27-27f5e5fc165e",
+      "quote": "The sector innovation lab connected us directly with Ministry stakeholders. That access accelerated our pilot deployment by a year.",
+      "author": "Hanna K.",
+      "role": "CTO, MedLink",
+      "initials": "HK"
+    }
+  ],
+  "news": [
+    {
+      "id": "b30a06fb-345d-4f31-83fa-86ffd0de1bb3",
+      "title": "IAC Opens Applications for 2026 Incubation Cohort",
+      "excerpt": "Applications are now open for our flagship 12-month incubation program. Early-stage tech startups are encouraged to apply.",
+      "date": "June 15, 2026",
+      "category": "Announcement",
+      "published": true
+    },
+    {
+      "id": "857e0281-6d5b-44b1-aaea-756b45a9055f",
+      "title": "Demo Day 2026: 20 Startups Pitch to Global Investors",
+      "excerpt": "Our annual Demo Day brought together investors from across Africa, Europe, and the Middle East to meet Ethiopia's brightest founders.",
+      "date": "May 28, 2026",
+      "category": "Event",
+      "published": true
+    },
+    {
+      "id": "9c379c28-2ada-4d55-85f4-812f7aed2c60",
+      "title": "MinT Launches FinTech Regulatory Sandbox at IAC",
+      "excerpt": "A new regulatory sandbox enables FinTech startups to test innovative products in a controlled environment with MinT oversight.",
+      "date": "April 10, 2026",
+      "category": "Partnership",
+      "published": true
+    },
+    {
+      "id": "59d2a66e-52f5-4ca4-b3d5-08e32555de6f",
+      "title": "IAC Partners with Leading Universities for Talent Pipeline",
+      "excerpt": "New partnerships with Addis Ababa University and Bahir Dar University create internship and research collaboration pathways.",
+      "date": "March 22, 2026",
+      "category": "Partnership",
+      "published": true
+    }
+  ],
+  "resources": [
+    {
+      "id": "c8985730-42e8-4efa-8fd6-375e3046e74e",
+      "title": "Startup Toolkit",
+      "description": "Templates for business plans, pitch decks, financial models, and legal checklists.",
+      "type": "Download"
+    },
+    {
+      "id": "7847d589-c76d-4b70-94e7-6428a914d29b",
+      "title": "Founder's Guide to Ethiopia",
+      "description": "Comprehensive guide covering registration, taxation, and regulatory requirements.",
+      "type": "Guide"
+    },
+    {
+      "id": "e6eb7f81-a30c-4872-9200-60ff2f6c843e",
+      "title": "Webinar Library",
+      "description": "Recorded sessions on fundraising, product development, and scaling strategies.",
+      "type": "Video"
+    },
+    {
+      "id": "d3139394-8147-40f9-9e12-8bb5d90ff6aa",
+      "title": "Investor Directory",
+      "description": "Curated list of angel investors, VCs, and grant programs active in Ethiopia.",
+      "type": "Directory"
+    },
+    {
+      "id": "352590ca-d74d-476c-9356-dbd33c612305",
+      "title": "IP & Patent Guide",
+      "description": "Step-by-step guide to protecting intellectual property in Ethiopia and abroad.",
+      "type": "Guide"
+    },
+    {
+      "id": "26810e15-f850-4958-80c9-94fe49d7caae",
+      "title": "Market Research Reports",
+      "description": "Sector analyses for AgriTech, FinTech, HealthTech, and emerging verticals.",
+      "type": "Report"
+    }
+  ],
+  "values": [
+    {
+      "id": "8d2b7b3f-b675-4294-8bd4-b4cfd01f6c2e",
+      "title": "Innovation First",
+      "description": "We champion bold ideas that solve real problems for Ethiopians and beyond."
+    },
+    {
+      "id": "4d10ca07-4929-4cf4-8693-0334814f2127",
+      "title": "Inclusive Growth",
+      "description": "Our programs welcome founders from all backgrounds, regions, and sectors."
+    },
+    {
+      "id": "125a05f0-9f23-4555-a283-f983bb82cdc2",
+      "title": "Integrity & Trust",
+      "description": "As a government institution, we uphold the highest standards of transparency."
+    },
+    {
+      "id": "10081863-1861-49b3-8ed4-c563c0330d6d",
+      "title": "Collaboration",
+      "description": "We build bridges between startups, government, academia, and industry."
+    }
+  ],
+  "timeline": [
+    {
+      "id": "b9a5373f-1057-4793-9a21-cd2cfa834055",
+      "year": "2018",
+      "event": "IAC established under MinT to formalize startup support infrastructure."
+    },
+    {
+      "id": "8840ace8-370a-4748-88cf-ed95f87d142e",
+      "year": "2020",
+      "event": "First incubation cohort launched with 15 startups across 4 sectors."
+    },
+    {
+      "id": "57355960-8e7e-48a8-91da-8c15c17e4988",
+      "year": "2022",
+      "event": "New co-working facility opened, capacity expanded to 80 startups."
+    },
+    {
+      "id": "dd5e0046-9d4f-4be2-8ec8-d526877ebefa",
+      "year": "2024",
+      "event": "Sector Innovation Labs launched for AgriTech, FinTech, and HealthTech."
+    },
+    {
+      "id": "f21c72ab-5110-4d33-8f3b-bf9109f2aa67",
+      "year": "2026",
+      "event": "120+ alumni startups, national innovation hub network expansion begins."
+    }
+  ],
+  "applicationSteps": [
+    {
+      "id": "66b86424-13ad-40cf-9f5b-6485b7e345ef",
+      "step": 1,
+      "title": "Submit Application",
+      "description": "Complete the online form with your team info, idea summary, and sector."
+    },
+    {
+      "id": "cc026652-3bf8-4a4a-8da9-4fa3a5678e63",
+      "step": 2,
+      "title": "Initial Screening",
+      "description": "Our team reviews applications for fit, potential, and commitment level."
+    },
+    {
+      "id": "46a00ca6-5e8a-416d-b06b-92d639ffa979",
+      "step": 3,
+      "title": "Interview & Pitch",
+      "description": "Shortlisted founders present their vision to the selection committee."
+    },
+    {
+      "id": "4eed1324-be6d-4852-9d11-214cff44881b",
+      "step": 4,
+      "title": "Onboarding",
+      "description": "Accepted startups join their cohort with a tailored development plan."
+    }
+  ],
+  "contactSubmissions": [],
+  "applicationSubmissions": [
+    {
+      "id": "3e1c96d0-43c3-49fc-966d-c782e1b0b2c4",
+      "founderName": "beki",
+      "email": "beki@gmail.com",
+      "startupName": "MIE",
+      "program": "Future-Startup Founders Program",
+      "sector": "HealthTech",
+      "stage": "MVP / Prototype",
+      "pitch": "safasfsfasfs fas f",
+      "website": "",
+      "createdAt": "2026-06-25T07:52:19.141Z"
+    }
+  ]
+}

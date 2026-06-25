@@ -32,8 +32,9 @@ yarn-error.log*
 .env*.local
 .env
 
-# CMS data (persisted on server, not in git)
-/data/
+# CMS runtime data — baseline content.json is committed for Vercel
+/data/*
+!/data/content.json
 
 # typescript
 *.tsbuildinfo
