@@ -41,8 +41,8 @@ export async function generateMetadata(): Promise<Metadata> {
       follow: true,
     },
     icons: {
-      icon: "/logos/iac-logo.jpg",
-      apple: "/logos/iac-logo.jpg",
+      icon: "/logos/iac-logo.png",
+      apple: "/logos/iac-logo.png",
     },
     manifest: "/manifest.webmanifest",
   };

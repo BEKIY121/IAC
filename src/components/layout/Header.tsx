@@ -6,7 +6,7 @@ import { Menu, X } from "lucide-react";
 import { navLinks } from "@/lib/data";
 import type { SiteConfig } from "@/lib/types";
 import { Button } from "@/components/ui/Button";
-import { IacLogo } from "@/components/ui/Logo";
+import { IacLogo, MintLogo } from "@/components/ui/Logo";
 import { cn } from "@/lib/utils";
 
 interface HeaderProps {
@@ -43,7 +43,9 @@ export function Header({ siteConfig }: HeaderProps) {
       </div>
 
       <nav className="container-narrow flex items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <Link href="/" className="group flex items-center gap-3">
+        <Link href="/" className="group flex items-center gap-3 sm:gap-4">
+          <MintLogo size="xl" priority />
+          <span className="hidden h-12 w-px bg-gray-300 sm:block" aria-hidden="true" />
           <IacLogo size="md" priority className="transition group-hover:opacity-90" />
         </Link>
 

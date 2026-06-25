@@ -15,16 +15,28 @@ export function Hero({ siteConfig }: HeroProps) {
       <div className="section-padding relative pb-32">
         <div className="container-narrow">
           <div className="mx-auto max-w-4xl text-center">
-            <div className="mb-8 flex justify-center">
-              <IacLogo size="xl" priority />
+            <div className="mb-10 flex translate-x-6 flex-col items-center justify-center gap-6 sm:translate-x-12 sm:flex-row sm:items-center sm:gap-10">
+              <MintLogo
+                size="2xl"
+                className="h-40 w-40 sm:h-48 sm:w-48"
+                sizes="(min-width: 640px) 192px, 160px"
+                priority
+              />
+              <span
+                className="hidden w-px self-center bg-gray-300 sm:block sm:h-24"
+                aria-hidden="true"
+              />
+              <IacLogo
+                size="2xl"
+                sizes="(min-width: 640px) 280px, 240px"
+                priority
+              />
             </div>
 
-            <div className="mb-6 inline-flex items-center gap-2.5 rounded-full border border-mint-primary/20 bg-white/80 px-4 py-2 text-sm font-medium text-navy shadow-sm backdrop-blur-sm">
-              <MintLogo size="xs" />
-              <span>
-                Powered by {siteConfig.owner.shortName} — Ministry of Innovation & Technology
-              </span>
-            </div>
+            <p className="mb-6 text-sm font-medium text-slate-muted">
+              An initiative of {siteConfig.owner.shortName} —{" "}
+              {siteConfig.owner.name}
+            </p>
 
             <h1 className="text-4xl font-bold tracking-tight text-navy sm:text-5xl lg:text-7xl">
               Where Ethiopian{" "}
