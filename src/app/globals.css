@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mint-primary: #0a7c6e;
+  --color-mint-primary-dark: #065a50;
+  --color-mint-primary-light: #12a896;
+  --color-eth-green: #078930;
+  --color-eth-gold: #fcd116;
+  --color-eth-red: #da121a;
+  --color-navy: #0a1628;
+  --color-navy-light: #152238;
+  --color-slate-muted: #64748b;
+  --color-surface: #f8fafb;
+  --color-surface-elevated: #ffffff;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-surface text-navy antialiased;
+    font-family: var(--font-sans);
+  }
+
+  ::selection {
+    @apply bg-mint-primary/20 text-navy;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-mint-primary to-mint-primary-light bg-clip-text text-transparent;
+  }
+
+  .glass {
+    @apply border border-white/20 bg-white/70 backdrop-blur-xl;
+  }
+
+  .section-padding {
+    @apply px-4 py-20 sm:px-6 lg:px-8 lg:py-28;
+  }
+
+  .container-narrow {
+    @apply mx-auto max-w-7xl;
+  }
+
+  .grid-pattern {
+    background-image:
+      linear-gradient(rgba(10, 124, 110, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(10, 124, 110, 0.04) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+
+  .hero-glow {
+    background:
+      radial-gradient(ellipse 80% 60% at 50% -20%, rgba(10, 124, 110, 0.18), transparent),
+      radial-gradient(ellipse 50% 40% at 90% 50%, rgba(252, 209, 22, 0.08), transparent);
+  }
+}

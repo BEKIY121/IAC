@@ -1,0 +1,16 @@
+{
+  "name": "IAC — Information Access Center",
+  "short_name": "IAC",
+  "description": "Information Access Center — Ethiopia-Korea partnership under MinT",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#c45c3e",
+  "icons": [
+    {
+      "src": "/logos/iac-logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
